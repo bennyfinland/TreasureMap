@@ -18,4 +18,6 @@ Motion tracking implemented by HTML5 canvas element;
 
 =========================================================================================================================
 
-This demo designed used by VTT technical center of Oulu, Finland 2013 
+This demo designed used for VTT technical center of Oulu, Finland 2013 
+
+
