@@ -1,6 +1,6 @@
 Treasure Map(Motion) demo  
 
-Environment: Andriod with Mozilla Firefox browser
+Operation environment: Andriod with Mozilla Firefox browser
 
 =========================================================================================================================
 
