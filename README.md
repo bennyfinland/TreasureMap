@@ -1,5 +1,9 @@
 Treasure Map(Motion) demo  
 
+Code poll: TreasureMap/war/index.html  (Eclipse)
+
+Link: http://chattest-tol.appspot.com/
+
 Operation environment: Andriod with Mozilla Firefox browser
 
 =========================================================================================================================
@@ -15,6 +19,8 @@ Accelerometer sensor used JavaScript deviceOrientation API;
 Ambient Light used JavaScript deviceLight API;
 
 Motion tracking implemented by HTML5 canvas element;
+
+The demo set up on Google APP server
 
 =========================================================================================================================
 
