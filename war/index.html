@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Server Browser Treasure Map concept application</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src='applicationLogic.js'></script>
+<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div id="pageContainer">
+
+		<h1 id="mainHeader">Position tracking with accelerometer</h1>
+		
+		<ul id="tabs">
+  			<li><a href="#data">Data</a></li>
+  			<li><a href="#options">Options</a></li>
+  			<li><a href="others">Orientation</a></li>
+		</ul>
+
+		<div class="tabContent" id="data">
+
+			<div class="floatLeft">
+				<table>
+					<tr>
+						<td>Accel. x:</td>
+						<td id="accx"></td>
+					</tr>
+					<tr>
+						<td>Accel. y:</td>
+						<td id="accy"></td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="floatLeft">
+				<table>
+					<tr>
+						<td>Vel. x:</td>
+						<td id="velox"></td>
+					</tr>
+					<tr>
+						<td>Vel. y:</td>
+						<td id="veloy"></td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="floatRight">
+				<table>
+					<tr>
+						<td>Pos. x:</td>
+						<td id="positionx"></td>
+					</tr>
+					<tr>
+						<td>Pos. y:</td>
+						<td id="positiony"></td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="floatRight">
+				<table>
+					<tr>
+						<td>Stopped x:</td>
+						<td id="zerox"></td>
+					</tr>
+					<tr>
+						<td>Stopped y:</td>
+						<td id="zeroy"></td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+
+		<div class="tabContent" id="options">
+  			<div>
+    			<form>
+					<input type="checkbox" id="stopBox" name="stopBox" onclick="changeStopStatus();" checked>Check if stationary
+					<input type="checkbox" id="traceBox" name="traceBox" checked>Show movement trace<br>
+					<input type="checkbox" id="calibrationBox" name="calibrationBox" onclick="changeCalibrationStatus();" checked>Calibrate device
+				</form>
+   			</div>
+		</div>	
+		
+		<div class="tabContent" id="others">
+
+			<div class="floatLeft">
+				<table>
+					<tr>
+						<td>Alpha:</td>
+						<td id="orienta"></td>
+					</tr>
+					<tr>
+						<td>Beta:</td>
+						<td id="orientb"></td>
+					</tr>
+				</table>
+			</div>			
+			<div class="floatRight">
+				<table>	
+					<tr>
+						<td>Gamma:</td>
+						<td id="orientg"></td>
+					</tr>
+				</table>
+			</div>	
+		</div>
+		
+	<div id="controlPanel">
+		<input type="button" class="button" id="startButton" name="startButton" onclick="start();" value="Start">			
+		<input type="button" class="button" id="resetButton" name="resetButton" onclick="reset();" value="Reset">		
+		<table class="floatRight"><tr><td>Status:</td><td id="statusText"></td></tr></table>
+	</div>	
+	
+	<div>
+		<canvas class="canvas" id="canvas" width="720" height="720"></canvas>
+	</div>		
+					
+	</div>					
+</body>
+</html>

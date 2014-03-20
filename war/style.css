@@ -1,0 +1,169 @@
+body{
+	-moz-transition:1s all;
+	text-align:center; 
+	background-color: #E6E6E6;
+}
+
+#mainHeader{
+	color: black;
+	margin-bottom: 50px;
+}
+
+#mainHeader.dark{
+	color: white;
+	margin-bottom: 50px;
+}
+
+#pageContainer{
+	-moz-transition:1s all;
+	text-align:left;
+	margin: 15px;
+	padding: 20px;
+	display: inline-block;
+	background-color: #FAFAFA;
+	width: 720;
+	border: 2px solid grey; 
+}
+
+#pageContainer.dark{
+	text-align:left;
+	margin: 15px;
+	padding: 20px;
+	display: inline-block;
+	background-color: black;
+	width: 720px;
+	border: 2px solid white; 
+}
+
+#controlPanel{
+	-moz-transition:1s all;
+	padding: 5px;
+	margin-right: auto; 
+	margin-left: auto;
+	margin-top: 8px;
+	border: 1px solid grey;
+}
+
+#controlPanel.dark{
+	color: white;
+	padding: 5px;
+	margin-right: auto; 
+	margin-left: auto;
+	margin-top: 8px;
+	background-color: #070d0d;
+	border: 1px solid white;
+}
+
+.button{
+	width: 90px;
+	height: 30px;
+}
+
+#canvas{
+	-moz-transition:1s all;
+	margin-top:10px;
+	margin-bottom: 20px;
+	margin-right: auto; 
+	margin-left: auto;
+	border:1px solid grey;
+	background-color: white;
+}
+
+#canvas.dark{
+	margin-top:10px;
+	margin-bottom: 20px;
+	margin-right: auto; 
+	margin-left: auto;
+	border:1px solid white;
+	background-color: #070d0d;
+}
+
+.floatLeft{
+	float:left;
+	width: 150px;
+}
+
+.floatRight{
+	float:right;
+	width: 150px;
+}
+
+.center{
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+h1{
+	color:black;	
+}
+
+/* Tab formatting */
+
+ul#tabs{ 
+	list-style-type: none; 
+	margin: 10px 0 0 0; 
+	padding: 0 0 0.3em 0;
+}
+
+
+ul#tabs li{ 
+	display: inline; 
+}
+
+ul#tabs li a{ 
+	color: #42454a; 
+	background-color: #dedbde; 
+	border: 1px solid grey; 
+	border-bottom: none; 
+	padding: 0.3em; 
+	text-decoration: none; 
+}
+
+ul#tabs.dark li.dark a.dark{ 
+	color: white; 
+	background-color: #070d0d; 
+	border: 1px solid white; 
+	border-bottom: none; 
+	padding: 0.3em; 
+	text-decoration: none; 
+}
+
+ul#tabs li a:hover{ 
+	background-color: #f1f0ee; 
+}
+
+ul#tabs li a.selected{ 
+
+	color: #000; 
+	background-color: white; 
+	font-weight: bold; 
+	padding: 0.7em 0.3em 0.38em 0.3em; 
+}
+
+ul#tabs ul.dark li.dark a.selected.dark{ 
+	color: white; 
+	background-color: #070d0d; 
+	font-weight: bold; 
+	padding: 0.7em 0.3em 0.38em 0.3em; 
+}
+
+div.tabContent{ 
+
+	border: 1px solid grey;
+	background-color: white; 
+	overflow: hidden;
+	padding: 0.5em; 
+}
+
+div.tabContent.dark{ 
+	color: white;
+	border: 1px solid white;
+	background-color: #070d0d; 
+	overflow: hidden;
+	padding: 0.5em; 
+}
+
+div.tabContent.hide{ 
+	display: none; 
+}
+
