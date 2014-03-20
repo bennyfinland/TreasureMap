@@ -10,9 +10,11 @@ it's estimated movement.
 
 
 =========================================================================================================================
-Accelerometer sensor used JavaScript deviceOrientation API
-Ambient Light used JavaScript deviceLight API
-Motion tracking used HTML5 canvas element;
+Accelerometer sensor used JavaScript deviceOrientation API;
+
+Ambient Light used JavaScript deviceLight API;
+
+Motion tracking implemented by HTML5 canvas element;
 
 =========================================================================================================================
 
