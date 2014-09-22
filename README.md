@@ -8,7 +8,7 @@ Treasure Map(Motion) demo
 
 Code poll: TreasureMap/war/index.html  (Eclipse)
 
-Link: http://chattest-tol.appspot.com/
+<b>JS code poll: TreasureMap/war/applicationLogic.js</b>
 
 Operation environment: Andriod with Mozilla Firefox browser
 
