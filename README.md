@@ -1,7 +1,7 @@
 
 
 
-Treasure Map(Motion) demo
+Treasure Map(Motion) demo (JavaScript)
 ==========================
 
 
